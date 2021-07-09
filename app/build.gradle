@@ -57,10 +57,10 @@ dependencies {
     kapt("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
 
     //kodein
-    def kodein_version = "7.6.0"
+    def kodein_version = "5.0.1"
 
-    implementation "org.kodein.di:kodein-di-generic-jvm:$kodein_version"
-    implementation "org.kodein.di:kodein-di-framework-android-x:$kodein_version"
+    implementation 'org.kodein.di:kodein-di-generic-jvm:5.0.1'
+
 
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
