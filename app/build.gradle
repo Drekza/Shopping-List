@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
     //coroutines
     def coroutines_version = "1.5.1"
 
